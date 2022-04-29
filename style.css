@@ -1,0 +1,406 @@
+*{
+  padding: 0;
+  margin: 10px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    box-sizing: border-box;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  #nav-bar{
+    height: 80px;
+    width: 100%;
+    background:white;
+  }
+
+  label.logox{
+    color: rgb(8, 37, 119);
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family: "Lato", sans-serif;
+  }
+
+  #nav-bar {
+    display: flex;
+    flex-grow: 1;
+    min-height: 80px;
+    align-items: center;
+  } 
+
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+
+  nav ul li button{
+    height: 50px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 40px;
+    border: solid white;
+    color: white;
+    background: blue;
+    font-size: 17;
+  }
+
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px ;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  
+ /* .main {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: absolute;
+  }*/
+  
+  /* ======== Header ======== */
+ 
+  
+  .shift img {
+    width: 15%;
+    height: 4%;
+    float:left;
+  }
+
+  .dribble{
+    size: 40% 60%;
+  }
+
+  .beta{
+      box-sizing: border-box;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .beta img {
+    width: 15%;
+    height: 4%;
+    border-radius: 50%;
+    float:left;
+  }
+
+.flex{
+    display: flex;
+    flex-direction: 50% 50% column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 20px;
+    border: 20px;
+}
+
+
+  /* ======== Form ========*/
+  .form {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+  }  
+   #email {
+    width: 80%;
+    padding: 15px;
+    border: 2px solid gray;
+    border-radius: 30px;
+
+  }
+
+  #submit {
+    width: 25%;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    background: blue;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+ 
+  #features {
+    max-width: 100%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:10%;
+    margin-bottom:  10%;
+    display: flex;
+    flex-direction: 50% 50% column;
+    justify-content: center;
+  }
+  
+  .text{
+    font-size: 30px;
+    border: none;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+  }
+  
+  .text > p{
+    font-size: 20px;
+    text-align: center;
+
+  }
+
+  .text > input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20%;
+    background-color: blue;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+  }
+ 
+  .content{
+    display: flex;
+    flex-direction: column;
+    margin: o;
+  }
+
+  /*How It Works*/
+
+  #howitworks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+
+  #howitworks > h3{
+    font-family: "Lato", sans-serif;
+  }
+  
+  #howitworks > img{
+   width: 20%;
+  }
+
+  .box{
+    display: flex;
+    flex-direction:row;
+    padding:30px;
+    margin: 20px;
+  }
+
+  .cell2{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+  }
+
+  
+  /* ======== Pricing ========*/
+  #pricing {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #pricing .card {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border: none;
+    max-width: 340px;
+    width: 100%;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  #pricing .card h2 {
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  
+  #pricing .card strong {
+    font-size: 24px;
+  }
+  
+  #pricing .card button {
+    border: 0;
+    margin: 15px 0;
+    background-color: blue;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .single{
+      background-color: rgb(3, 7, 68);
+      color: white;
+      margin-left: 200px;
+      margin-right: 200px;
+      margin-top: 80px;
+      margin-bottom: 80px;
+      padding: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border-radius: 30px;
+  }
+
+ .single button {
+    border: 0;
+    margin: 15px 0;
+    background-color: #fafafa;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+
+.single p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding-left:200px;
+    padding-right:200px;
+}
+
+.screw{
+  size: 10% 20%;
+}
+
+  /* ======== Footer ========*/
+  footer {
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    background-color:white;
+  }
+  
+  footer > ul {
+    padding: 0;
+  }
+  
+  footer > ul li {
+    display: inline;
+  }
+  
+  footer > ul li:not(last-child) {
+    margin-right: 10px;
+  }
+  
+  footer > ul li a {
+    color: blue;
+    text-decoration: none;
+  }
+
+  footer > p{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* ======== Media query ========*/
+  @media (min-width: 550px) {
+    #features .card .icon {
+      display: block;
+    }
+  
+    #features .card .content {
+      text-align: left;
+    }
+    
+  }
+  
+  @media (min-width: 600px) {
+    #header {
+      flex-direction: row;
+      left: 5%;
+      right: 5%;
+    }
+  
+    #nav-bar ul {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    #nav-bar ul li {
+      display: inline;
+      margin-right: 50px;
+    }
+  
+    #nav-bar ul li:last-child {
+      margin-right: 0;
+    }
+
+    #pricing {
+      flex-direction: row;
+      align-self: center;
+    }
+
+  }
+  
+  @media (min-width: 980px) {
+    #pricing {
+      flex-direction: row;
+      align-self: center;
+    }
+  
+    #pricing .card:not(last-child) {
+      margin-right: 15px;
+    }
+  }
+  
+
+  @media (min-width: 980px) {
+    #howitworks {
+      flex-direction: row;
+      align-self: center;
+    }
+  
+    #howitworks .card:not(last-child) {
+      margin-right: 15px;
+    }
+  }
+  
+
+  @media (min-width: 550px) {}
